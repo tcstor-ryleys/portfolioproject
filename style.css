@@ -1,0 +1,28 @@
+h1{
+    color:rgb(77, 36, 76);
+    border: 2px solid;
+    border-radius:50px;
+    font-size:100px;
+}
+
+p{
+    color:blue;
+    font-size:40px;
+}
+
+img{
+    height:100px;
+    width:90px;
+
+}
+
+ul{
+    padding:0px;
+    list-style-type:none;
+}
+
+li{
+    border: 1px solid;
+    background-color: plum;
+    border-radius: 8px;
+}
