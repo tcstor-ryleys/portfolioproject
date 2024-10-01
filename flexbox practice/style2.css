@@ -1,0 +1,35 @@
+
+
+.item{
+    width: 25px;
+    height: 25px;
+    background-color:peachpuff;
+    border-radius: 3px;
+    text-align: center;
+    padding:30px;
+    font-size: 25px;
+
+
+
+
+
+
+
+}
+.container{
+    display:flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+#item-1{
+    flex-grow: 4;
+
+}
+
