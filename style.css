@@ -46,6 +46,7 @@ li{
     color:purple;
     padding:10px 20px;
     background-color:lightcyan;
+    text-decoration: none;
 }
 .button:hover{
     background-color:lightseagreen;
@@ -53,4 +54,15 @@ li{
 .IdentityV{
     position:relative;
     top: 100px;
+}
+
+nav{
+    background-color: peachpuff;
+    padding: 20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+
 }
