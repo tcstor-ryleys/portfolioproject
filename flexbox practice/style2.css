@@ -1,4 +1,4 @@
-
+/* 
 
 .item{
     width: 25px;
@@ -31,5 +31,39 @@
 #item-1{
     flex-grow: 4;
 
+} */
+
+.square{
+    width: 25px;
+    height: 25px;
+    background-color:peachpuff;
+    border-radius: 3px;
+    text-align: center;
+    padding:30px;
+    font-size: 25px;
+
 }
+
+@keyframes spin{
+    0%{
+    }
+    50%{ transform: rotate(0);
+        scale: 2;
+    border-radius: 0;
+     }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+
+     }
+        }
+.square{
+    animation-timing-function: ease-in-out;
+    animation-name: spin;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+    
 
