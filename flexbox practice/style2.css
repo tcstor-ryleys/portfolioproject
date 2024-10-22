@@ -32,8 +32,12 @@
     flex-grow: 4;
 
 } */
+ :root{
+    --color-purple: #66326b;
+    --color-peachpuff: #ffdab9;
+ }
 
-.square{
+.item{
     width: 25px;
     height: 25px;
     background-color:peachpuff;
@@ -57,7 +61,7 @@
 
      }
         }
-.square{
+/* .item{
     animation-timing-function: ease-in-out;
     animation-name: spin;
     animation-delay: 1s;
@@ -65,5 +69,42 @@
     animation-direction: normal;
     animation-iteration-count: infinite;
 }
-    
+     */
 
+@keyframes moveshape{
+    0%{ transform: translateX(0px);
+        background-color: purple;
+        border-radius: 0;
+
+      }
+     25%{ background-color: black;
+    
+    
+     }
+     50%{ transform: translateX(300px);
+        transform:scale(2);
+
+     }
+     75%{ border-radius: 50;
+
+     }
+     100%{ transform: translateX(600px);
+        background-color: rosybrown;
+
+     }
+
+}
+.square{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+
+}
+.item{ animation: moveshape 5s infinite;
+
+}
