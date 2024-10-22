@@ -47,9 +47,41 @@
         border-radius:50%;
 }
 }
-.box1{
+/* .box1{
     animation-duration:1s;
     animation-name:spin;
     animation-delay:0s;
     animation-iteration-count:infinite;
+} */
+@keyframes moveshape{
+    0%{transform:translatex(0px);
+        background-color:red;
+        border-radius:0;
+
+    }
+    25%{background-color:purple;
+
+    }
+    50%{background-color:yellow;
+        transform:translatex(300px);
+        transform:scale(2);
+
+    }
+    75%{
+        border-radius:50%;
+    }
+    100%{
+        transform:translatex(600px);
+        background-color:blue;
+    }
+}
+.box{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box1{
+   animation: moveshape 5s infinite;
 }
