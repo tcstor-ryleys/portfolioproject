@@ -73,3 +73,50 @@ nav{
         background-color:rgb(167, 227, 246);
     }
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.about{
+    background-color:rgb(190, 216, 240);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100vh;
+}
+.tux-nav{
+    background-color:#f0987d;
+    color:black;
+    padding:15px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 20px 9px 0px orange;
+}
+.cat-nav-links{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:flex-start;
+
+}
+.cat-nav-links li{
+    margin-left:20px;
+}
+cat-nav-links li a{
+    color:white;
+    text-decoration:none;
+}
+cat-nav-links li a:hover{
+    background-color:rgb(248, 194, 78)
+}
+.Tuxedo{
+    font-size:2em;
+    margin:0;
+}
+.card-gallery{
+    
+}
