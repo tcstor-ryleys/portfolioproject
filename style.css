@@ -104,3 +104,41 @@ nav{
     animation-duration: 3s;
 
     }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.about{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.idvnav{
+   background-color: peachpuff;
+   padding: 15px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 12px 12px 2px 1px rgba(210, 170, 255, .9);
+
+}
+
+.idv-nav-links{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.idv-nav-links li{
+    margin-right: 20px;
+
+}
