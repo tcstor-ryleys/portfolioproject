@@ -93,7 +93,7 @@ nav{
     width:100%;
     display:flex;
     justify-content:space-between;
-    box-shadow: 20px 9px 0px orange;
+    box-shadow: 20px 9px 0px rgb(148, 102, 99);
 }
 .cat-nav-links{
     list-style:none;
@@ -106,11 +106,11 @@ nav{
 .cat-nav-links li{
     margin-left:20px;
 }
-cat-nav-links li a{
+.cat-nav-links li a{
     color:white;
     text-decoration:none;
 }
-cat-nav-links li a:hover{
+.cat-nav-links li a:hover{
     background-color:rgb(248, 194, 78)
 }
 .Tuxedo{
@@ -118,5 +118,46 @@ cat-nav-links li a:hover{
     margin:0;
 }
 .card-gallery{
-    
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
 }
+.card{
+    background-color:rgb(243, 243, 186);
+    border-radius:10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+    transition:transform 0.5s ease,box-shadow 0.5s ease;
+    width:500px;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+}
+.card img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+.card-content{
+padding:10px;
+text-align:center;
+}
+.card-content h3{
+font-style:italic;
+font-size:50px;
+}
+.card-content p{
+    font-style:italic;
+    font-size:20px;
+}
+@media(max-width:768px;){
+    .card-gallery{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+}
+
