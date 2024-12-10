@@ -31,7 +31,10 @@ let students = 30;
 //easywaytogetusername
 // let username = window.prompt("What Is Your Username?");
 // console.log(username);
-document.getElementById("button").onclick = function getUserInput() {
-  username = document.getElementById("input").value;
-  document.getElementById("myh1").textContent = `Hello ${username}`;
-};
+// document.getElementById("button").onclick = function getUserInput() {
+//   username = document.getElementById("input").value;
+//   document.getElementById("myh1").textContent = `Hello ${username}`;
+// };
+// document.getElementById("popupbutton").onclick = function newpage() {
+//   location.href = "index.html";
+// };

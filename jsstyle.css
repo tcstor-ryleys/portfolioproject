@@ -1,0 +1,41 @@
+body {
+  font-family: Verdana;
+  font-size: 2em;
+  justify-content: center;
+  background-color: #556f7a;
+  padding-top: 200px;
+}
+
+#button {
+  color: rgb(48, 25, 52);
+  background-color: antiquewhite;
+  text-decoration: none;
+}
+
+#myh1 {
+  display: flex;
+  justify-content: center;
+}
+
+#label {
+  display: flex;
+  justify-content: center;
+}
+
+#div {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 13px;
+}
